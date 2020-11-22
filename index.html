@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Navbar</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Rolls Royce</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <h2>Rolls Royce</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quia earum ab dolorem exercitationem voluptatibus
+        sapiente incidunt. Totam nemo ullam fugit eius deleniti ratione eligendi eaque adipisci at ea eveniet rerum eos
+        nisi amet perferendis quasi error, quisquam esse? Dolores exercitationem, fugit quo eveniet, nobis voluptates in
+        itaque ut ipsam corporis dignissimos, voluptatem neque possimus. Exercitationem minima nemo libero velit.
+        Dolores excepturi vitae rem aspernatur placeat deleniti nostrum suscipit nam ipsam temporibus? Vero delectus
+        nesciunt repellat quibusdam labore eveniet debitis omnis, rerum quaerat quasi exercitationem illum placeat
+        consequatur fugit iure nulla! At laborum sunt aliquam inventore eligendi reprehenderit praesentium placeat?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eum autem libero, iure ad qui adipisci
+        dignissimos itaque sed quos aliquid architecto reprehenderit exercitationem officiis explicabo voluptatum hic
+        molestias, vitae eligendi quae obcaecati inventore rem. Amet harum corrupti aspernatur? Voluptates sit cum
+        eligendi itaque dignissimos quod, amet, temporibus, cumque doloremque accusamus delectus obcaecati optio
+        praesentium et dolores tenetur repellat rerum aperiam architecto recusandae id error quo nemo! Deserunt quidem
+        hic et similique omnis laboriosam reiciendis nam, non quos culpa odio officia. Dicta veniam cumque animi ea
+        quasi amet earum, aspernatur dolores tenetur praesentium? Odio enim, possimus sunt veritatis sed earum cum
+        tenetur quas quaerat, ex, exercitationem fuga architecto saepe! Facere esse accusantium tempora velit aspernatur
+        illum quos, ullam quisquam deleniti ea magni iure possimus totam obcaecati voluptate culpa sint soluta
+        blanditiis natus temporibus dolor qui. Adipisci, aspernatur, dolor cupiditate dolores omnis reprehenderit nisi
+        officiis aperiam officia temporibus ut exercitationem rem.
+    </p>
+</body>
+
+</html>
